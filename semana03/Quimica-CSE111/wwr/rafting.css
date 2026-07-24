@@ -69,8 +69,6 @@ p {
 }
 
 .hero {
-    position: relative;
-
     margin-bottom: 30px;
 }
 
@@ -83,47 +81,19 @@ p {
 }
 
 .hero h1 {
-    position: absolute;
+    padding: 20px;
 
-    top: 20px;
-
-    left: 0;
-
-    width: 100%;
-
-    padding: 16px;
-
-    background-color: var(--cor-texto);
+    background-color: #264653;
 
     color: white;
 
     text-align: center;
-
-    opacity: 0.9;
 }
 
 .hero article {
-    position: absolute;
-
-    bottom: 30px;
-
-    left: 5%;
-
-    width: 90%;
-
     padding: 20px;
 
     background-color: white;
-
-    opacity: 0.9;
-}
-
-.hero article img {
-    float: right;
-
-    width: 125px;
-
-    margin-left: 15px;
 }
 
 section {
