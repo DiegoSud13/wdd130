@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco | Rafting Aventura</title>
+    <meta name="description"
+      content="Entre em contato com a Rafting Aventura: endereço, telefone, e-mail e formulário para tirar dúvidas, fazer reservas ou enviar sugestões sobre nossas aventuras de rafting.">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+
+        <img src="imagens/rafting.jpg" alt="funcionario1.webp">
+
+        <img src="imagens/logo.png" alt="funcionario2.webp">
+
+        <img src="imagens/logo.png" alt="funcionario3.webp">
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Fale Conosco</h1>
+
+        <section class="info-contato">
+            <h2>Informações da Empresa</h2>
+            <address>
+                <p>Rua das Corredeiras, 123 - Cidade, Estado, 00000-000</p>
+                <p>Telefone: <a href="tel:+5500000000000">(00) 0000-0000</a></p>
+                <p>Celular: <a href="tel:+5500900000000">(00) 90000-0000</a></p>
+                <p>E-mail: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+            </address>
+
+            <iframe class="mapa" src="https://maps.app.goo.gl/jnYxDsdvU2ZuHRzQ7"
+              title="Mapa com a localização da empresa" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="equipe">
+            <h2>Nossa Equipe</h2>
+            <div class="equipe-grade">
+                <figure>
+                    <img src="images/funcionario1.webp" alt="Retrato de Ana Souza" width="200"
+                      height="200" loading="lazy">
+                    <figcaption>Ana Souza<br>Guia Chefe</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/funcionario2.webp" alt="Retrato de Carlos Lima" width="200"
+                      height="200" loading="lazy">
+                    <figcaption>Carlos Lima<br>Gerente de Reservas</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/funcionario3.webp" alt="Retrato de Marina Alves" width="200"
+                      height="200" loading="lazy">
+                    <figcaption>Marina Alves<br>Instrutora de Segurança</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <h2>Envie sua Mensagem</h2>
+            <form action="#" method="post">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Finalidade da mensagem</legend>
+                    <div class="opcao">
+                        <input type="radio" id="consulta" name="finalidade" value="consulta-geral"
+                          checked>
+                        <label for="consulta">Consulta Geral</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="radio" id="reserva" name="finalidade" value="pergunta-reserva">
+                        <label for="reserva">Pergunta sobre Reserva</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="radio" id="sugestao" name="finalidade" value="sugestao-site">
+                        <label for="sugestao">Sugestão de Site</label>
+                    </div>
+                </fieldset>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                    <label for="newsletter">Quero receber a newsletter mensal</label>
+                </div>
+
+                <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+        <p>
+            © 2026 White Water Rafting |
+            Diego Celestino Souza Ramos
+        </p>
+
+    </footer>
+</body>
+
+</html>
